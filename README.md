@@ -40,6 +40,14 @@ This is **not** meant to be a full alignment pipeline, just a working skeleton y
 
 ```bash
 !python src/generate_example.py
+
+5. Run a cheap "value adherence" evaluation (no external judge):
+
+```bash
+!python src/eval_pref_loglik.py
+```
+
+This computes a preference-loglikelihood accuracy score on `data/values_pref_tiny.jsonl` and prints a 95% confidence interval.
 ```
 
 Both scripts assume you have a GPU available and `torch` with CUDA already installed
