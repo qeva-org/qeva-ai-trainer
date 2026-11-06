@@ -12,3 +12,6 @@ parameter changes and adapter-reload agreement. This demonstrates training and
 serialization mechanics only. No useful language behaviour, generalization or
 alignment effectiveness follows. The original pretrained 1.5B training and generation
 scripts are unchanged and need their original dependencies, weights and compute.
+
+Executed profile: Python 3.12, PyTorch 2.14.0, Transformers 5.17.0, NumPy 2.2.6,
+PEFT 0.18.1 and Accelerate 1.12.0. The demo does not install or modify global packages.

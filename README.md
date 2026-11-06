@@ -71,3 +71,6 @@ BASE_MODEL="microsoft/Phi-3-mini-128k-instruct" python src/train_qwen2_values_ti
 ```
 
 (Just make sure the model fits into your GPU memory.)
+## Local executable demonstration
+
+The [CPU-only demo](DEMO.md) trains and reloads an actual LoRA adapter on a tiny random Qwen2 base without downloads or a GPU. It demonstrates training mechanics, not useful language behaviour or alignment effectiveness. Run through the qeva-ai demo launcher for isolated outputs and a process time limit.
